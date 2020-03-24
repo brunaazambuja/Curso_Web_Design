@@ -1,0 +1,23 @@
+
+* { margin: 0; padding: 0; }
+b { font-size: large; }
+h1 { font-size: 42px; text-align: center;}
+nav { min-height: 120px; background-color: #2b1111; color: #dddddd;}
+nav a { margin-left: 20px; padding: 20px; color: #dddddd; }
+nav a:hover { background-color: #e2e2e2; color: #2b1111; border-radius: 10px; -webkit-transition: 0.8s; }
+nav h1 { font-size: 32px; }
+footer { min-height: 120px;background-color: #2b1111; background-image: linear-gradient(to bottom, #2b1111, #4d4040); color: #dddddd; text-align: center; padding-top: 20px;}
+
+#home a {background-color: #e2e2e2a2; color: #2b1111; border-radius: 5px;}
+#main { background-image: linear-gradient(to bottom, #2b1111, #ad9797); padding: 100px; min-height: 300px; margin-top: 120px; color: #ffffff;}
+#main_text { text-shadow: 3px 3px 3px rgb(0, 0, 0); text-align: center;}
+#cards { min-height: 700px; background-color: rgb(161, 122, 122); text-align: center; padding-top: 20px; }
+#cards h1 { color: #ffffff; text-shadow: 3px 3px 3px rgb(0, 0, 0); }
+#atividades { min-height: 400px; background-color: #caadad; padding-bottom: 20px;}
+#atividades h1 {color: #ffffff; text-shadow: 3px 3px 3px rgb(0, 0, 0);}
+
+
+
+#form { min-height: 450px;}
+#form h1 {color: #ffffff; text-shadow: 3px 3px 3px rgb(0, 0, 0);}
+#form ul { color:#242424; font-size: large; padding-left: 100px;}
