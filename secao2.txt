@@ -1,0 +1,56 @@
+
+HTML:
+
+Uma página HTML possui:
+    (i) a declaração do tipo do documento; 
+    (ii) a tag HTML, que armazenará todo conteúdo da página; 
+    (iii) o cabeçalho, que armazena informações estruturais da página; 
+    (iv) o corpo, que armazenará os conteúdos e formatações da página.
+
+
+TAGS:
+
+<b> </b> ------------------------------------------------------------------------------- bold - negrito
+<del> </del> --------------------------------------------------------------------------- risca o texto selecionado
+<em> </em> ----------------------------------------------------------------------------- itálico
+<mark> </mark> ------------------------------------------------------------------------- marca o texto - destaque
+<u> </u> ------------------------------------------------------------------------------- sublinha o texto
+<small> </small> ----------------------------------------------------------------------- faz o texto ficar menor
+
+
+
+<p> </p> ------------------------------------------------------------------------------- cria parágrafos
+<hr> ----------------------------------------------------------------------------------- linha horizontal na página
+<br> ----------------------------------------------------------------------------------- quebra de linha
+<img src = "nome.png" width = "200px"> ------------------------------------------------- imagem no mesmo diretório
+<a href = "http://link.com">Nome do Link</a> ------------------------------------------- link para páginas externas
+<div> </div> --------------------------------------------------------------------------- divisórias nas páginas
+<input type = "text" name = "texto1" placeholder = "Text"> ----------------------------- input de texto comum
+<input type = "password" name = "senha"> ----------------------------------------------- input de texto senha
+<input type = "hidden" name = "hidden" placeholder = "Mensagem oculta"> ---------------- input oculto (????)
+
+
+
+
+
+<select name = "Selecao"> -------------------------------------------------------------- caixa de seleção de opções
+    <option value = "A">Opção A</option>
+    <option value = "B">Opção B</option>
+</select>
+
+<input type = "radio" name = "radio1" value = "1"> Opção1 ------------------------------ seleção de uma opção por vez 
+<input type = "radio" name = "radio1" value = "2"> Opção2
+
+<input type = "checkbox" name = "ck1" value = "1"> Opção1 ------------------------------ seleção de várias opções por vez
+<input type = "checkbox" name = "ck1" value = "2" checked > Opção2
+<input type = "checkbox" name = "ck1" value = "3"> Opção3
+<input type = "checkbox" name = "ck1" value = "4"> Opção4
+
+
+<input type = "submit" value = "Enviar" name = "submit"> ------------------------------- insere botão de enviar o formulário
+
+
+
+CSS:
+
+Mecanismo para adicionar um estilo à sua página Web, efeito cascata.

@@ -1,0 +1,118 @@
+/* Meu primeiro arquivo CSS */
+
+/* ---------------- TAGS ---------------- */
+
+*{
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #63021a;
+}
+
+header{
+    background-color: rgb(124, 11, 49);
+    height: 120px;
+    padding: 5px;
+}
+
+footer{
+    clear: both;
+    background-color: rgba(122, 7, 78, 0.609);
+    min-height: 60px;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #3d3d3d;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+}
+
+
+/* ---------------- IDS ---------------- */
+
+/* para ids usamos # */
+#div_esquerda{
+    background-color: crimson;
+    min-height: 400px;
+    min-width: 65%;
+    float: left;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px #3d3d3d;
+}
+
+#div_esquerda b{
+    color: #f76e6e;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+#div_esquerda a{
+    color: #f76e6e;
+}
+
+#div_esquerda a:hover{
+    background-color: #ffffff;
+    color: rgb(124, 11, 49);
+    border-radius: 2px;
+    -webkit-transition: 1s;
+}
+
+#div_direita{
+    min-height: 400px;
+    min-width: 35%;
+    float: right;
+    background-image: url('imagens/books.webp');
+    background-size: 100%;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #000000;
+}
+
+#div_direita a{
+    color: #ffffff;
+}
+
+#div_direita p{
+    background-color: #5e505049;
+}
+
+#logo{
+    float: left;
+}
+
+#menu{
+    margin-top: 10px;
+    padding: 30px;
+    float: right;
+}
+#menu a{
+    padding: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #3d3d3d;
+}
+#menu a:hover{
+    background-color: #ffadade3;
+    color: rgb(124, 11, 49);
+    border-radius: 15px;
+    -webkit-transition: 0.5s;
+}
+
+
+/* para classes usamos . */
+.container{
+    width: 960px;
+    margin: auto;
+}
+
+.efeito{
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+
+
